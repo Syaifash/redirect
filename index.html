@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script>
+    fetch("https://raw.githubusercontent.com/Syaifash/redirect/main/redirect.txt")
+      .then(r => r.text())
+      .then(u => location.href = u.trim());
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
